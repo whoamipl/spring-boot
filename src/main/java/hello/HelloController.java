@@ -8,7 +8,8 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index() {
-        return "<p style=\"font-size: 36px; text-align: center; margin-top: auto; margin-bottom: auto;\">Hello World!</p>";
+        return "<p style=\"font-size: 36px;position: absolute; top: 50%; left: 50%; margin-left: -75px;margin-top: -25px;\">Hello World!</p>";
     }
 
 }
+  
